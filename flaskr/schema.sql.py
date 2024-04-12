@@ -12,5 +12,13 @@ conn_str = "Driver={Microsoft Access Driver (*.mdb, *.accdb)};Dbq=" + file_path 
 print(conn_str)
 conn = pyodbc.connect(conn_str)
 
-print(conn_str)
+cursor = conn.cursor()
 
+cursor.execute("""CREATE TABLE user (
+    id  AUTOINCREMENT PRIMARY KEY ,
+    username varchar(30), 
+    password varchar(30)
+)""")
+
+cursor.commit()
+conn.close()

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6321cc30-565d-4e2c-9e07-b71c56630609" name="Changes" comment="The start" />
+    <list default="true" id="6321cc30-565d-4e2c-9e07-b71c56630609" name="Changes" comment="whey">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/schema.sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/schema.sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/testing whether this actually works.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/testing whether this actually works.accdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -97,11 +101,20 @@
       <option name="project" value="LOCAL" />
       <updated>1712946082839</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="whey">
+      <option name="closed" value="true" />
+      <created>1712946365541</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712946365541</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The start" />
-    <option name="LAST_COMMIT_MESSAGE" value="The start" />
+    <MESSAGE value="whey" />
+    <option name="LAST_COMMIT_MESSAGE" value="whey" />
   </component>
 </project>

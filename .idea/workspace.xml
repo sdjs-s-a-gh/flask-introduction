@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6321cc30-565d-4e2c-9e07-b71c56630609" name="Changes" comment="whey">
+    <list default="true" id="6321cc30-565d-4e2c-9e07-b71c56630609" name="Changes" comment="database actually works">
+      <change afterPath="$PROJECT_DIR$/flaskr/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flask introduction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask_introduction.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskr/schema.sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/schema.sql.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/schema.sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/schema.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskr/testing whether this actually works.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/testing whether this actually works.accdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +45,7 @@
   &quot;keyToString&quot;: {
     &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.schema.executor&quot;: &quot;Run&quot;,
     &quot;Python.schema.sql.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -55,7 +61,7 @@
   </component>
   <component name="RunManager">
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="flask introduction" />
+      <module name="flask_introduction" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -109,12 +115,29 @@
       <option name="project" value="LOCAL" />
       <updated>1712946365541</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="whey">
+      <option name="closed" value="true" />
+      <created>1712949071653</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712949071653</updated>
+    </task>
+    <task id="LOCAL-00004" summary="database actually works">
+      <option name="closed" value="true" />
+      <created>1712949115595</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712949115595</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The start" />
     <MESSAGE value="whey" />
-    <option name="LAST_COMMIT_MESSAGE" value="whey" />
+    <MESSAGE value="database actually works" />
+    <option name="LAST_COMMIT_MESSAGE" value="database actually works" />
   </component>
 </project>

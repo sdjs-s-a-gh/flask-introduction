@@ -28,6 +28,11 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
+    from . import db
+    db.init_app(app)
+
+    from . import auth
+    app.register_blueprint(auth.bp) #  views to register new users and to log in and log out
 
     return app
 

@@ -27,7 +27,7 @@ def init_db():
     cursor.execute("""CREATE TABLE user (
         id autoincrement PRIMARY KEY,
         username varchar(30) NOT NULL UNIQUE,
-        password varchar(30) NOT NULL
+        password varchar(147) NOT NULL
     )""")
 
     # Creating post table

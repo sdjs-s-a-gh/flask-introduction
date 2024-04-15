@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6321cc30-565d-4e2c-9e07-b71c56630609" name="Changes" comment="database actually works">
-      <change afterPath="$PROJECT_DIR$/flaskr/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/flask introduction.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flask_introduction.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="6321cc30-565d-4e2c-9e07-b71c56630609" name="Changes" comment="alot of changes: database, with subsequent cli commands; auth page, login/logout features; started to implement templates.">
+      <change afterPath="$PROJECT_DIR$/flaskr/templates/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flaskr/templates/auth/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/auth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskr/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskr/schema.sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/schema.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flaskr/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskr/testing whether this actually works.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/testing whether this actually works.accdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/instance/flaskr.sqlite" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -43,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;Python.__init__.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;Python.schema.executor&quot;: &quot;Run&quot;,
@@ -56,6 +59,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Scott\PycharmProjects\flask introduction\flaskr" />
+      <recent name="C:\Users\Scott\PycharmProjects\flask introduction\instance" />
       <recent name="C:\Users\Scott\PycharmProjects\flask introduction" />
     </key>
   </component>
@@ -131,13 +135,22 @@
       <option name="project" value="LOCAL" />
       <updated>1712949115595</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="alot of changes: database, with subsequent cli commands; auth page, login/logout features; started to implement templates.">
+      <option name="closed" value="true" />
+      <created>1713108958755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713108958755</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="The start" />
     <MESSAGE value="whey" />
     <MESSAGE value="database actually works" />
-    <option name="LAST_COMMIT_MESSAGE" value="database actually works" />
+    <MESSAGE value="alot of changes: database, with subsequent cli commands; auth page, login/logout features; started to implement templates." />
+    <option name="LAST_COMMIT_MESSAGE" value="alot of changes: database, with subsequent cli commands; auth page, login/logout features; started to implement templates." />
   </component>
 </project>

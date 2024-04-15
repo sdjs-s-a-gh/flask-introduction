@@ -28,16 +28,17 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
-    from . import db
+    from flaskr import db
     db.init_app(app)
 
-    from . import auth
+    from flaskr import auth
     app.register_blueprint(auth.bp) #  views to register new users and to log in and log out
 
     return app
 
+
 app = create_app()
+
 
 if __name__ == '__main__':
     app.run(debug=True)
-

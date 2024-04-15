@@ -49,9 +49,11 @@ def login():
             'SELECT * FROM user WHERE username = ?', (username,)
         ).fetchone()
 
+        print(f"{user[2]}, {generate_password_hash(password)}")
         if user is None:
             error = 'Incorrect username.'
-        elif not check_password_hash(user['password'], password):
+        elif not check_password_hash(user[2], password):    # column 2 (zero-based) = password
+            print(f"{user[2]}, {generate_password_hash(password)}")
             error = 'Incorrect password.'
 
         if error is None:

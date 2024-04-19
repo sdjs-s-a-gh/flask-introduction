@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6321cc30-565d-4e2c-9e07-b71c56630609" name="Changes" comment="alot of changes: database, with subsequent cli commands; auth page, login/logout features; started to implement templates.">
-      <change afterPath="$PROJECT_DIR$/flaskr/templates/auth/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flaskr/templates/auth/register.html" afterDir="false" />
+    <list default="true" id="6321cc30-565d-4e2c-9e07-b71c56630609" name="Changes" comment="added some templates but login doesn't work">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flaskr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskr/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskr/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskr/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flaskr/testing whether this actually works.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/flaskr/testing whether this actually works.accdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instance/flaskr.sqlite" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713108958755</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added some templates but login doesn't work">
+      <option name="closed" value="true" />
+      <created>1713211599114</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713211599114</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -151,6 +152,7 @@
     <MESSAGE value="whey" />
     <MESSAGE value="database actually works" />
     <MESSAGE value="alot of changes: database, with subsequent cli commands; auth page, login/logout features; started to implement templates." />
-    <option name="LAST_COMMIT_MESSAGE" value="alot of changes: database, with subsequent cli commands; auth page, login/logout features; started to implement templates." />
+    <MESSAGE value="added some templates but login doesn't work" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some templates but login doesn't work" />
   </component>
 </project>
